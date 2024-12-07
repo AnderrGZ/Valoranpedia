@@ -1,21 +1,21 @@
 {
   "name": "proyecto-final",
   "version": "1.0.0",
-  "description": "Proyecto final de la materia de programación",
+  "description": "Proyecto  de la materia de programación I",
   "main": ".eleventy.js",
   "scripts": {
     "install": "npm install @11ty/eleventy --save-dev",
     "start": "npx @11ty/eleventy --serve --port=7777",
     "clean": "rm -rf docs",
     "deploy": "npx @11ty/eleventy --pathprefix=/",
-    "deploy-subdomain": "npx @11ty/eleventy --pathprefix=/proyecto-final/ && npx pagefind --source=docs"
+    "deploy-subdomain": "npx @11ty/eleventy --pathprefix=/proyecto-final-valopedia/ && npx pagefind --site=docs"
   },
   "keywords": [
     "11ty",
     "eleventy",
     "github pages"
   ],
-  "author": "Karol René Rivas <kare.rivasd@gmail.com>",
+  "author": "Ander Raúl Garzón Tarango <cdmx2971@amerike.edu.mx>",
   "license": "MIT",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
