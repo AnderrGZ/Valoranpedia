@@ -13,6 +13,6 @@ module.exports = function (eleventyConfig) {
       input: "code",
       output: "docs",
     },
-    pathPrefix: "/proyecto-final/",
+    pathPrefix: "/Valoranpedia/",
   };
 };

@@ -1,14 +1,14 @@
 {
-  "name": "proyecto-final",
+  "name": "proyecto-wiki",
   "version": "1.0.0",
-  "description": "Proyecto  de la materia de programación I",
+  "description": "Proyecto de la materia de programación I",
   "main": ".eleventy.js",
   "scripts": {
     "install": "npm install @11ty/eleventy --save-dev",
     "start": "npx @11ty/eleventy --serve --port=7777",
     "clean": "rm -rf docs",
     "deploy": "npx @11ty/eleventy --pathprefix=/",
-    "deploy-subdomain": "npx @11ty/eleventy --pathprefix=/Valoranpedia/ && npx pagefind --site=docs"
+    "deploy-subdomain": "npx @11ty/eleventy --pathprefix=/Valoranpedia/"
   },
   "keywords": [
     "11ty",
