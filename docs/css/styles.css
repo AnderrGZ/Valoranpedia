@@ -1,29 +1,38 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
 * {
   box-sizing: border-box;
 }
 
 body {
+  background-color: #111111;
   margin: 0 auto;
   padding: 1rem;
   max-width: 800px;
   min-height: 100vh;
-  border: medium solid red;
+  border: medium solid rgb(126, 112, 112);
   text-align: center;
   font-family: system-ui, sans-serif;
 }
 
 a {
-  color: #1873a5;
+  color: white;
   transition: all 0.3s ease-out;
+  text-decoration: none;
 
   &:hover {
-    color: red;
+    color: rgb(255, 255, 59);
   }
 }
 
+small,
+h1,
+h2,
+h3,
 hr {
   margin: 2rem auto;
   width: 80%;
+  color: white;
 }
 
 img {
@@ -34,13 +43,14 @@ img {
 p,
 li {
   text-align: left;
+  color: white;
 }
 
 .menu {
   width: 100%;
   max-width: 480px;
   margin: 0 auto;
-  border: thin solid red;
+  border: thin solid rgb(126, 112, 112);
 
   ul {
     margin: 0;
