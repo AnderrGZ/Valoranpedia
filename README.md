@@ -1,2 +1,3 @@
-# Karol René Rivas Díaz
-https://retimax.github.io/proyecto-final/
+# Ander Raúl Garzón Tarango
+
+https://anderrgz.github.io/Valoranpedia/
