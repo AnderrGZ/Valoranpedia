@@ -5,17 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Whiterose - El poder de la dualidad</title>
   <meta name="description" content="Descripción del artículo 19.">
-  <link rel="icon" href="/proyecto-final/img/favicon.png">
-  <link rel="stylesheet" href="/proyecto-final/css/styles.css">
+  <link rel="icon" href="/img/favicon.png">
+  <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
   <header>
-    <img src="/proyecto-final/img/logo.png" alt="Logo Mr. Robot" width="400">
+    <img src="/img/logo.png" alt="Logo Mr. Robot" width=400>
+    <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+    <script src="/pagefind/pagefind-ui.js"></script>
+    <div id="search"></div>
+    <script>
+	    window.addEventListener("DOMContentLoaded", (event) => {
+		    new PagefindUI({ element: "#search", showSubResults: true });
+	    });
+    </script>
     <nav class="menu">
   <ul>
-    <li><a href="/proyecto-final/">Inicio</a></li>
-    <li><a href="/proyecto-final/acerca">Acerca</a></li>
-    <li><a href="/proyecto-final/blog">Blog</a></li>
+    <li><a href="/">Inicio</a></li>
+    <li><a href="/acerca">Acerca</a></li>
+    <li><a href="/blog">Blog</a></li>
   </ul>
 </nav>
   </header>
@@ -39,6 +47,6 @@
   <small>FUCK SOCIETY</small>
 </footer>
 
-  <script src="/proyecto-final/js/main.js" type="module"></script>
+  <script src="/js/main.js" type="module"></script>
 </body>
 </html>

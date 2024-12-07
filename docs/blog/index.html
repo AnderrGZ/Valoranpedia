@@ -5,17 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Página de Blog</title>
   <meta name="description" content="">
-  <link rel="icon" href="/proyecto-final/img/favicon.png">
-  <link rel="stylesheet" href="/proyecto-final/css/styles.css">
+  <link rel="icon" href="/img/favicon.png">
+  <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
   <header>
-    <img src="/proyecto-final/img/logo.png" alt="Logo Mr. Robot" width="400">
+    <img src="/img/logo.png" alt="Logo Mr. Robot" width=400>
+    <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+    <script src="/pagefind/pagefind-ui.js"></script>
+    <div id="search"></div>
+    <script>
+	    window.addEventListener("DOMContentLoaded", (event) => {
+		    new PagefindUI({ element: "#search", showSubResults: true });
+	    });
+    </script>
     <nav class="menu">
   <ul>
-    <li><a href="/proyecto-final/">Inicio</a></li>
-    <li><a href="/proyecto-final/acerca">Acerca</a></li>
-    <li><a href="/proyecto-final/blog">Blog</a></li>
+    <li><a href="/">Inicio</a></li>
+    <li><a href="/acerca">Acerca</a></li>
+    <li><a href="/blog">Blog</a></li>
   </ul>
 </nav>
   </header>
@@ -25,45 +33,45 @@
 <h2>Artículos del blog</h2>
 <ul>
   
-    <li><a href="/proyecto-final/articulo-1/"> Elliot Alderson - Un protagonista roto y complejo</a></li>
+    <li><a href="/articulo-1/"> Elliot Alderson - Un protagonista roto y complejo</a></li>
   
-    <li><a href="/proyecto-final/articulo-2/"> fsociety - La revolución cibernética y su impacto</a></li>
+    <li><a href="/articulo-2/"> fsociety - La revolución cibernética y su impacto</a></li>
   
-    <li><a href="/proyecto-final/articulo-3/"> Angela Moss - Ambición, moralidad y sacrificio</a></li>
+    <li><a href="/articulo-3/"> Angela Moss - Ambición, moralidad y sacrificio</a></li>
   
-    <li><a href="/proyecto-final/articulo-4/"> Dark Army - El terror invisible de la revolución</a></li>
+    <li><a href="/articulo-4/"> Dark Army - El terror invisible de la revolución</a></li>
   
-    <li><a href="/proyecto-final/articulo-5/"> Darlene Alderson - El motor emocional de fsociety</a></li>
+    <li><a href="/articulo-5/"> Darlene Alderson - El motor emocional de fsociety</a></li>
   
-    <li><a href="/proyecto-final/articulo-6/"> Tyrell Wellick - Ambición desmedida y obsesión</a></li>
+    <li><a href="/articulo-6/"> Tyrell Wellick - Ambición desmedida y obsesión</a></li>
   
-    <li><a href="/proyecto-final/articulo-7/"> E Corp - La corporación como antagonista</a></li>
+    <li><a href="/articulo-7/"> E Corp - La corporación como antagonista</a></li>
   
-    <li><a href="/proyecto-final/articulo-10/"> La ingeniería social como arma en Mr. Robot</a></li>
+    <li><a href="/articulo-10/"> La ingeniería social como arma en Mr. Robot</a></li>
   
-    <li><a href="/proyecto-final/articulo-11/"> La ética de la revolución en Mr. Robot</a></li>
+    <li><a href="/articulo-11/"> La ética de la revolución en Mr. Robot</a></li>
   
-    <li><a href="/proyecto-final/articulo-12/"> El simbolismo del hoodie en Mr. Robot</a></li>
+    <li><a href="/articulo-12/"> El simbolismo del hoodie en Mr. Robot</a></li>
   
-    <li><a href="/proyecto-final/articulo-13/"> El papel de la música en Mr. Robot</a></li>
+    <li><a href="/articulo-13/"> El papel de la música en Mr. Robot</a></li>
   
-    <li><a href="/proyecto-final/articulo-14/"> La evolución de Darlene Alderson - Una revolución personal</a></li>
+    <li><a href="/articulo-14/"> La evolución de Darlene Alderson - Una revolución personal</a></li>
   
-    <li><a href="/proyecto-final/articulo-15/"> Los easter eggs y referencias en Mr. Robot</a></li>
+    <li><a href="/articulo-15/"> Los easter eggs y referencias en Mr. Robot</a></li>
   
-    <li><a href="/proyecto-final/articulo-16/"> La crítica al capitalismo en Mr. Robot</a></li>
+    <li><a href="/articulo-16/"> La crítica al capitalismo en Mr. Robot</a></li>
   
-    <li><a href="/proyecto-final/articulo-17/"> Angela Moss - La tragedia de un ideal</a></li>
+    <li><a href="/articulo-17/"> Angela Moss - La tragedia de un ideal</a></li>
   
-    <li><a href="/proyecto-final/articulo-18/"> La psicología de Elliot - Fragmentación y realidad</a></li>
+    <li><a href="/articulo-18/"> La psicología de Elliot - Fragmentación y realidad</a></li>
   
-    <li><a href="/proyecto-final/articulo-19/"> Whiterose - El poder de la dualidad</a></li>
+    <li><a href="/articulo-19/"> Whiterose - El poder de la dualidad</a></li>
   
-    <li><a href="/proyecto-final/articulo-20/"> El impacto cultural de Mr. Robot</a></li>
+    <li><a href="/articulo-20/"> El impacto cultural de Mr. Robot</a></li>
   
-    <li><a href="/proyecto-final/articulo-8/"> Whiterose - El tiempo, el poder y la obsesión</a></li>
+    <li><a href="/articulo-8/"> Whiterose - El tiempo, el poder y la obsesión</a></li>
   
-    <li><a href="/proyecto-final/articulo-9/"> Trastorno de identidad disociativa y su representación en Elliot</a></li>
+    <li><a href="/articulo-9/"> Trastorno de identidad disociativa y su representación en Elliot</a></li>
   
 </ul>
   </main>
@@ -72,6 +80,6 @@
   <small>FUCK SOCIETY</small>
 </footer>
 
-  <script src="/proyecto-final/js/main.js" type="module"></script>
+  <script src="/js/main.js" type="module"></script>
 </body>
 </html>
